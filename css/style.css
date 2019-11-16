@@ -1,1 +1,9 @@
 /* Site Styles Go Here */
+ul.copyright {
+    padding: 1;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: white;
+  }
+ 

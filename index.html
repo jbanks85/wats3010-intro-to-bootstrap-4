@@ -6,8 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- TODO: Add proper viewport meta tag to make page properly display on mobile devices. -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -26,8 +25,38 @@
   <!-- (1)Navigation -->
   <!-- TODO implement responsive navigation that matches your IA design -->
   <!-- TODO put this nav on every page -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Expert Skin</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="My Account.html">My Account</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Testimonials
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">Customers</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">Before and After</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">Products that work</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <header>
@@ -44,23 +73,23 @@
 
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item active" style="background-image: url('images/Slider Images/Expert Skincare Products.jpeg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+            <h3>Expert Advice</h3>
+            <p>Directly from professionals themselves.</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/Slider Images/Catered Products_Resized.jpeg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <h3>A Tailored Regimen</h3>
+            <p>Products aligned to treat your skin needs</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('images/Slider Images/Results.jpeg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
+            <h3>Results That Last</h3>
             <p>This is a description for the third slide.</p>
           </div>
         </div>
@@ -129,92 +158,74 @@
     <h2>Portfolio Heading</h2>
 
     <div class="row">
-      <div class="portfolio-item">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
+          <a href="#"><img class="card-img-top" src="images/Testimonial 1.jpg" alt="Female Customer Testimonial"></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project One</a>
+              <a href="#">Jessie's New Found Comfort</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt?
-              Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
-                    <div class="card-body">
+          <a href="#"><img class="card-img-top" src="images/Testimonial 5.jpg" alt="Female Customer Testimonial"></a>
+          <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Two</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
-        </div>
-      </div>
-    </div>
-    <div class="portfolio-item">
-      <div class="card h-100">
-        <a href="#">
-          <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-        </a>
-        <div class="card-body">       
-               <h4 class="card-title">
-          <a href="#">Project Three</a>
-        </h4>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio
-          velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-      </div>
-        </div>
-      </div>
-      <div class="portfolio-item">
-        <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Four 600x400 instead of 700x400</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
+          <a href="#"><img class="card-img-top" src="images/Testimonial 2.jpg" alt="Male Customer Testimonial"></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Five</a>
+              <a href="#">Frank's Confident Care</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
-              varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
           </div>
         </div>
       </div>
-      <div class="portfolio-item">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#">
-            <img class="card-img-top" src="http://placehold.it/700x450" alt="">
-          </a>
+          <a href="#"><img class="card-img-top" src="images/Skin Problems.jpeg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Six</a>
+              <a href="#">Problematic Skin</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident,
-              perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="images/Going Natural.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">Going Natural</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="#"><img class="card-img-top" src="images/General Skin Care.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="#">General Skincare Guide</a>
+            </h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
           </div>
         </div>
       </div>
     </div>
-    <!-- /.row -->
+  <!--row-->
 
     <!-- Features Section -->
     <div class="row">
@@ -262,8 +273,11 @@
       and one that is right aligned and contains your name.
       Put the footer on every page.
     -->
-    <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+    <div class="copyright">
+        <ul class="copyright">
+          <li>Copyright &copy; 2019</li>
+          <li>Jason Banks</li>
+        </ul>
       </div>
     <!-- /.container -->
   </footer>
