@@ -24,7 +24,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #2E8AFF;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -59,7 +59,7 @@ img.avatar {
 
 /* Add padding to containers */
 .container {
-  padding: 5px;
+  padding: 0;
 }
 
 /* The "Forgot password" text */
