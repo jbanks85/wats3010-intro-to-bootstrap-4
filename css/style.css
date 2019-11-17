@@ -79,4 +79,16 @@ span.psw {
   }
 }
 
+a:visited {
+  color: #54EBB5;
+}
+
+.btn-primary:hover {
+  background-color: #54EBB5;
+  width: 50;
+  height: 50;
+  transform: enlarge;
+}
+
+
  
